@@ -1,0 +1,18 @@
+{
+  "name": "js-22",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html",
+    "start": "parcel src/index.html --open"
+  },
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
